@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "PocketSvg/PocketSVG.h"
+#import "PocketSVG.h"
 
 @interface TGDrawSvgPathView : UIView
 

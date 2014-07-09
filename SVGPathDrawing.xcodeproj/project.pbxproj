@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC8039EF196DD32E0031B33B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8039ED196DD32E0031B33B /* ViewController.m */; };
 		AC8039F0196DD32E0031B33B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8039EE196DD32E0031B33B /* ViewController.xib */; };
-		AC8039FC196DEE0D0031B33B /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8039FB196DEE0D0031B33B /* PocketSVG.m */; };
 		AC8039FF196DEE190031B33B /* TGDrawSvgPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8039FE196DEE190031B33B /* TGDrawSvgPathView.m */; };
+		AC803A02196DF6770031B33B /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = AC803A01196DF6770031B33B /* PocketSVG.m */; };
 		ACB150DD196C796300CA1D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DC196C796300CA1D4B /* Foundation.framework */; };
 		ACB150DF196C796300CA1D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DE196C796300CA1D4B /* CoreGraphics.framework */; };
 		ACB150E1196C796300CA1D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150E0196C796300CA1D4B /* UIKit.framework */; };
@@ -39,10 +39,10 @@
 		AC8039EC196DD32E0031B33B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AC8039ED196DD32E0031B33B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC8039EE196DD32E0031B33B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		AC8039FA196DEE0D0031B33B /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = Classes/PocketSvg/PocketSVG.h; sourceTree = "<group>"; };
-		AC8039FB196DEE0D0031B33B /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = Classes/PocketSvg/PocketSVG.m; sourceTree = "<group>"; };
 		AC8039FD196DEE190031B33B /* TGDrawSvgPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGDrawSvgPathView.h; path = Classes/TGDrawSvgPathView.h; sourceTree = "<group>"; };
 		AC8039FE196DEE190031B33B /* TGDrawSvgPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGDrawSvgPathView.m; path = Classes/TGDrawSvgPathView.m; sourceTree = "<group>"; };
+		AC803A00196DF6770031B33B /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = Classes/PocketSVG.h; sourceTree = "<group>"; };
+		AC803A01196DF6770031B33B /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = Classes/PocketSVG.m; sourceTree = "<group>"; };
 		ACB150D9196C796300CA1D4B /* SVGPathDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGPathDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB150DC196C796300CA1D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACB150DE196C796300CA1D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,20 +87,12 @@
 		AC8039F1196DE0530031B33B /* TGSvgPathDrawView */ = {
 			isa = PBXGroup;
 			children = (
+				AC803A00196DF6770031B33B /* PocketSVG.h */,
+				AC803A01196DF6770031B33B /* PocketSVG.m */,
 				AC8039FD196DEE190031B33B /* TGDrawSvgPathView.h */,
 				AC8039FE196DEE190031B33B /* TGDrawSvgPathView.m */,
-				AC8039F9196DEDFB0031B33B /* PocketSvg */,
 			);
 			name = TGSvgPathDrawView;
-			sourceTree = "<group>";
-		};
-		AC8039F9196DEDFB0031B33B /* PocketSvg */ = {
-			isa = PBXGroup;
-			children = (
-				AC8039FA196DEE0D0031B33B /* PocketSVG.h */,
-				AC8039FB196DEE0D0031B33B /* PocketSVG.m */,
-			);
-			name = PocketSvg;
 			sourceTree = "<group>";
 		};
 		ACB150D0196C796300CA1D4B = {
@@ -273,11 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8039FC196DEE0D0031B33B /* PocketSVG.m in Sources */,
 				ACB150ED196C796300CA1D4B /* AppDelegate.m in Sources */,
 				AC8039FF196DEE190031B33B /* TGDrawSvgPathView.m in Sources */,
 				ACB150E9196C796300CA1D4B /* main.m in Sources */,
 				AC8039EF196DD32E0031B33B /* ViewController.m in Sources */,
+				AC803A02196DF6770031B33B /* PocketSVG.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
