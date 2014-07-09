@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AC8039EB196DCEAA0031B33B /* TGDrawSvgPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8039EA196DCEAA0031B33B /* TGDrawSvgPathView.m */; };
+		AC8039EF196DD32E0031B33B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8039ED196DD32E0031B33B /* ViewController.m */; };
+		AC8039F0196DD32E0031B33B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8039EE196DD32E0031B33B /* ViewController.xib */; };
 		ACB150DD196C796300CA1D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DC196C796300CA1D4B /* Foundation.framework */; };
 		ACB150DF196C796300CA1D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DE196C796300CA1D4B /* CoreGraphics.framework */; };
 		ACB150E1196C796300CA1D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150E0196C796300CA1D4B /* UIKit.framework */; };
@@ -18,8 +20,6 @@
 		ACB150F6196C796400CA1D4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150F5196C796400CA1D4B /* XCTest.framework */; };
 		ACB150F7196C796400CA1D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DC196C796300CA1D4B /* Foundation.framework */; };
 		ACB150F8196C796400CA1D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150E0196C796300CA1D4B /* UIKit.framework */; };
-		ACB1510F196C79EC00CA1D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1510D196C79EC00CA1D4B /* ViewController.m */; };
-		ACB15110196C79EC00CA1D4B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB1510E196C79EC00CA1D4B /* ViewController.xib */; };
 		ACB15114196CA42200CA1D4B /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB15113196CA42200CA1D4B /* PocketSVG.m */; };
 		ACB1511A196CA4A600CA1D4B /* cloud.svg in Resources */ = {isa = PBXBuildFile; fileRef = ACB15117196CA4A600CA1D4B /* cloud.svg */; };
 		ACB1511B196CA4A600CA1D4B /* iceland.svg in Resources */ = {isa = PBXBuildFile; fileRef = ACB15118196CA4A600CA1D4B /* iceland.svg */; };
@@ -38,6 +38,9 @@
 /* Begin PBXFileReference section */
 		AC8039E9196DCEAA0031B33B /* TGDrawSvgPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGDrawSvgPathView.h; path = TGDrawSvgPathView/TGDrawSvgPathView.h; sourceTree = "<group>"; };
 		AC8039EA196DCEAA0031B33B /* TGDrawSvgPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGDrawSvgPathView.m; path = TGDrawSvgPathView/TGDrawSvgPathView.m; sourceTree = "<group>"; };
+		AC8039EC196DD32E0031B33B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC8039ED196DD32E0031B33B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC8039EE196DD32E0031B33B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		ACB150D9196C796300CA1D4B /* SVGPathDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGPathDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB150DC196C796300CA1D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACB150DE196C796300CA1D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,9 +54,6 @@
 		ACB150EE196C796300CA1D4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACB150F4196C796400CA1D4B /* SVGPathDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGPathDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB150F5196C796400CA1D4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ACB1510C196C79EC00CA1D4B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TestViewController/ViewController.h; sourceTree = "<group>"; };
-		ACB1510D196C79EC00CA1D4B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TestViewController/ViewController.m; sourceTree = "<group>"; };
-		ACB1510E196C79EC00CA1D4B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = TestViewController/ViewController.xib; sourceTree = "<group>"; };
 		ACB15112196CA42200CA1D4B /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = PocketSVG/PocketSVG.h; sourceTree = "<group>"; };
 		ACB15113196CA42200CA1D4B /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = PocketSVG/PocketSVG.m; sourceTree = "<group>"; };
 		ACB15117196CA4A600CA1D4B /* cloud.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = cloud.svg; path = Resources/Assets/cloud.svg; sourceTree = "<group>"; };
@@ -125,10 +125,12 @@
 		ACB150E2196C796300CA1D4B /* SVGPathDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				AC8039EC196DD32E0031B33B /* ViewController.h */,
+				AC8039ED196DD32E0031B33B /* ViewController.m */,
+				AC8039EE196DD32E0031B33B /* ViewController.xib */,
 				AC8039E8196DCE940031B33B /* TGDrawSvgPathView */,
 				ACB15115196CA43A00CA1D4B /* Resources */,
 				ACB15111196CA3D900CA1D4B /* PocketSVG */,
-				ACB1510B196C798C00CA1D4B /* TestViewController */,
 				ACB150EB196C796300CA1D4B /* AppDelegate.h */,
 				ACB150EC196C796300CA1D4B /* AppDelegate.m */,
 				ACB150EE196C796300CA1D4B /* Images.xcassets */,
@@ -146,16 +148,6 @@
 				ACB150EA196C796300CA1D4B /* SVGPathDrawing-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		ACB1510B196C798C00CA1D4B /* TestViewController */ = {
-			isa = PBXGroup;
-			children = (
-				ACB1510C196C79EC00CA1D4B /* ViewController.h */,
-				ACB1510D196C79EC00CA1D4B /* ViewController.m */,
-				ACB1510E196C79EC00CA1D4B /* ViewController.xib */,
-			);
-			name = TestViewController;
 			sourceTree = "<group>";
 		};
 		ACB15111196CA3D900CA1D4B /* PocketSVG */ = {
@@ -259,9 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8039F0196DD32E0031B33B /* ViewController.xib in Resources */,
 				ACB1511B196CA4A600CA1D4B /* iceland.svg in Resources */,
 				ACB150E7196C796300CA1D4B /* InfoPlist.strings in Resources */,
-				ACB15110196C79EC00CA1D4B /* ViewController.xib in Resources */,
 				ACB1511A196CA4A600CA1D4B /* cloud.svg in Resources */,
 				ACB150EF196C796300CA1D4B /* Images.xcassets in Resources */,
 			);
@@ -282,10 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB15114196CA42200CA1D4B /* PocketSVG.m in Sources */,
-				ACB1510F196C79EC00CA1D4B /* ViewController.m in Sources */,
 				AC8039EB196DCEAA0031B33B /* TGDrawSvgPathView.m in Sources */,
 				ACB150ED196C796300CA1D4B /* AppDelegate.m in Sources */,
 				ACB150E9196C796300CA1D4B /* main.m in Sources */,
+				AC8039EF196DD32E0031B33B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

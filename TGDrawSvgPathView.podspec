@@ -12,9 +12,12 @@ Pod::Spec.new do |s|
         'Thibault Guégan' => 'thibault.guegan@gmail.com'
     }
     s.source            = {
-        :git => 'https://github.com/Tibolte/TGDrawSvgPathView.git'
+        :git => 'https://github.com/Tibolte/TGDrawSvgPathView.git',
+        :commit => "8ec8a18af028705bb18418b53ddb5c48f1299000"
     }
-    s.source_files      = 'SVGPathDrawing/TGDrawSvgPathView/.{m,h}', 'SVGPathDrawing/PocketSVG/.{m,h}'
+    s.platform          = :ios, '7.0'
+    s.frameworks        = ['UIKit']
+    s.source_files      = 'SVGPathDrawing/*.{m,h}'
     s.requires_arc      = true
 
 end
