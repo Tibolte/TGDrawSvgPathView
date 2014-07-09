@@ -7,7 +7,6 @@
 //
 
 #import "TGDrawSvgPathView.h"
-#import "PocketSVG.h"
 
 @implementation TGDrawSvgPathView
 
