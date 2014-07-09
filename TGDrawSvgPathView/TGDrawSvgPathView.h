@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PocketSVG.h"
+
 @interface TGDrawSvgPathView : UIView
 
 @property (nonatomic, strong) CAShapeLayer* shapeView;

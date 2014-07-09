@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     }
     s.platform          = :ios, '7.0'
     s.frameworks        = ['UIKit']
-    s.source_files      = 'SVGPathDrawing/*.{m,h}'
+    s.source_files      = 'TGDrawSvgPathView/*'
     s.requires_arc      = true
 
 end
