@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     }
     s.source            = {
         :git => 'https://github.com/Tibolte/TGDrawSvgPathView.git',
-        :commit => "8ec8a18af028705bb18418b53ddb5c48f1299000"
+        :tag => s.version.to_s
     }
     s.platform          = :ios, '7.0'
     s.frameworks        = ['UIKit']

@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "PocketSVG.h"
 #import "TGDrawSvgPathView.h"
 
 @interface ViewController ()
