@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) CAShapeLayer* shapeView;
 @property (nonatomic, strong) TGDrawSvgPathView* tgView;
+@property (nonatomic)         CFTimeInterval animationDuration;
 
 @end
 
@@ -23,16 +24,60 @@
 {
     [super viewDidLoad];
     
+    self.mySlider.minimumValue = 2;
+    self.mySlider.maximumValue = 5;
+    
+    NSInteger val = lround(self.mySlider.value);
+    
+    _animationDuration = (float) val;
+    
+    [_lblDuration setText:[NSString stringWithFormat:@"duration: %d s", val]];
+    
     _tgView = [[TGDrawSvgPathView alloc] initWithFrame:CGRectMake(40.0, 70.0, 250.0, 250.0)];
-    [_tgView setPathFromSvg:@"cloud" strokeColor:[UIColor blackColor] duration:2.0];
+    [_tgView setPathFromSvg:@"cloud" strokeColor:[UIColor blackColor] duration:_animationDuration];
     [self.view addSubview:_tgView];
 }
 
 
-- (IBAction)btnAnimateClicked:(id)sender {
+- (IBAction)btnSvgCloud:(id)sender {
     _tgView.layer.sublayers = nil;
+    
+    [_tgView setPathFromSvg:@"cloud" strokeColor:[UIColor blackColor] duration:_animationDuration];
+}
+- (IBAction)btnSvgIceland:(id)sender {
+    _tgView.layer.sublayers = nil;
+    
+    [_tgView setPathFromSvg:@"iceland" strokeColor:[UIColor blackColor] duration:_animationDuration];
+}
+- (IBAction)btnSvgGrid:(id)sender {
+    _tgView.layer.sublayers = nil;
+    
+    [_tgView setPathFromSvg:@"criss6" strokeColor:[UIColor blackColor] duration:_animationDuration];
+}
+- (IBAction)btnSvgBike:(id)sender {
+    _tgView.layer.sublayers = nil;
+    
+    [_tgView setPathFromSvg:@"world17" strokeColor:[UIColor blackColor] duration:_animationDuration];
+}
+- (IBAction)btnSvgSmiley:(id)sender {
+    _tgView.layer.sublayers = nil;
+    
+    [_tgView setPathFromSvg:@"replay2" strokeColor:[UIColor blackColor] duration:_animationDuration];
+}
+- (IBAction)btnSvgStar:(id)sender {
+    _tgView.layer.sublayers = nil;
+    
+    [_tgView setPathFromSvg:@"dropbox10" strokeColor:[UIColor blackColor] duration:_animationDuration];
+}
 
-    [_tgView setPathFromSvg:@"iceland" strokeColor:[UIColor blackColor] duration:2.0];
+
+- (IBAction)sliderChanged:(id)sender {
+    
+    NSInteger val = lround(self.mySlider.value);
+    
+    _animationDuration = (float) val;
+    
+    [_lblDuration setText:[NSString stringWithFormat:@"duration: %d s", val]];
 }
 
 - (void)didReceiveMemoryWarning

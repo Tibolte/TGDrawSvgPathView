@@ -11,6 +11,10 @@
 		AC8039F0196DD32E0031B33B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8039EE196DD32E0031B33B /* ViewController.xib */; };
 		AC8039FF196DEE190031B33B /* TGDrawSvgPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8039FE196DEE190031B33B /* TGDrawSvgPathView.m */; };
 		AC803A02196DF6770031B33B /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = AC803A01196DF6770031B33B /* PocketSVG.m */; };
+		AC803A07196E06600031B33B /* criss6.svg in Resources */ = {isa = PBXBuildFile; fileRef = AC803A03196E06600031B33B /* criss6.svg */; };
+		AC803A0C196E071F0031B33B /* world17.svg in Resources */ = {isa = PBXBuildFile; fileRef = AC803A0B196E071F0031B33B /* world17.svg */; };
+		AC803A14196E08BB0031B33B /* replay2.svg in Resources */ = {isa = PBXBuildFile; fileRef = AC803A13196E08BB0031B33B /* replay2.svg */; };
+		AC803A16196E09190031B33B /* dropbox10.svg in Resources */ = {isa = PBXBuildFile; fileRef = AC803A15196E09190031B33B /* dropbox10.svg */; };
 		ACB150DD196C796300CA1D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DC196C796300CA1D4B /* Foundation.framework */; };
 		ACB150DF196C796300CA1D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150DE196C796300CA1D4B /* CoreGraphics.framework */; };
 		ACB150E1196C796300CA1D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB150E0196C796300CA1D4B /* UIKit.framework */; };
@@ -43,6 +47,10 @@
 		AC8039FE196DEE190031B33B /* TGDrawSvgPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGDrawSvgPathView.m; path = Classes/TGDrawSvgPathView.m; sourceTree = "<group>"; };
 		AC803A00196DF6770031B33B /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = Classes/PocketSVG.h; sourceTree = "<group>"; };
 		AC803A01196DF6770031B33B /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = Classes/PocketSVG.m; sourceTree = "<group>"; };
+		AC803A03196E06600031B33B /* criss6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = criss6.svg; path = Resources/Assets/criss6.svg; sourceTree = "<group>"; };
+		AC803A0B196E071F0031B33B /* world17.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = world17.svg; path = Resources/Assets/world17.svg; sourceTree = "<group>"; };
+		AC803A13196E08BB0031B33B /* replay2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = replay2.svg; path = Resources/Assets/replay2.svg; sourceTree = "<group>"; };
+		AC803A15196E09190031B33B /* dropbox10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = dropbox10.svg; path = Resources/Assets/dropbox10.svg; sourceTree = "<group>"; };
 		ACB150D9196C796300CA1D4B /* SVGPathDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGPathDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB150DC196C796300CA1D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACB150DE196C796300CA1D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,6 +170,10 @@
 		ACB15116196CA45600CA1D4B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AC803A15196E09190031B33B /* dropbox10.svg */,
+				AC803A13196E08BB0031B33B /* replay2.svg */,
+				AC803A0B196E071F0031B33B /* world17.svg */,
+				AC803A03196E06600031B33B /* criss6.svg */,
 				ACB15117196CA4A600CA1D4B /* cloud.svg */,
 				ACB15118196CA4A600CA1D4B /* iceland.svg */,
 			);
@@ -243,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC803A14196E08BB0031B33B /* replay2.svg in Resources */,
+				AC803A07196E06600031B33B /* criss6.svg in Resources */,
 				AC8039F0196DD32E0031B33B /* ViewController.xib in Resources */,
+				AC803A16196E09190031B33B /* dropbox10.svg in Resources */,
 				ACB1511B196CA4A600CA1D4B /* iceland.svg in Resources */,
+				AC803A0C196E071F0031B33B /* world17.svg in Resources */,
 				ACB150E7196C796300CA1D4B /* InfoPlist.strings in Resources */,
 				ACB1511A196CA4A600CA1D4B /* cloud.svg in Resources */,
 				ACB150EF196C796300CA1D4B /* Images.xcassets in Resources */,
