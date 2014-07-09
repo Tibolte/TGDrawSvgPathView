@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.source            = {
         :git => 'https://github.com/Tibolte/TGDrawSvgPathView.git'
     }
-    s.source_files      = '*.{h,m}'
+    s.source_files      = 'SVGPathDrawing/TGDrawSvgPathView/.{m,h}', 'SVGPathDrawing/PocketSVG/.{m,h}'
     s.requires_arc      = true
 
 end
