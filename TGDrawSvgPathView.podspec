@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name              = 'TGDrawSvgPathView'
-    s.version           = '1.0.0'
+    s.version           = '1.0.1'
     s.summary           = 'an IOS helper class to draw animated paths from SVG files'
     s.homepage          = 'https://github.com/Tibolte/TGDrawSvgPathView'
     s.license           = {
