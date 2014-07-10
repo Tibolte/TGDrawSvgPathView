@@ -24,7 +24,7 @@ it simply add the following line to your Podfile:
 
 ### Manual
 
-Download the project and add the folder `Classes` to your project.
+Download the project and add the folder `Classes` containing the classes `TGDrawSvgPathView` and `PocketSVG` to your project.
 
 ## Author
 
