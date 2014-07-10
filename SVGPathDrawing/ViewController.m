@@ -31,7 +31,7 @@
     
     _animationDuration = (float) val;
     
-    [_lblDuration setText:[NSString stringWithFormat:@"duration: %d s", val]];
+    [_lblDuration setText:[NSString stringWithFormat:@"duration: %ld s", val]];
     
     _tgView = [[TGDrawSvgPathView alloc] initWithFrame:CGRectMake(40.0, 70.0, 250.0, 250.0)];
     [_tgView setPathFromSvg:@"cloud" strokeColor:[UIColor blackColor] duration:_animationDuration];
@@ -77,7 +77,7 @@
     
     _animationDuration = (float) val;
     
-    [_lblDuration setText:[NSString stringWithFormat:@"duration: %d s", val]];
+    [_lblDuration setText:[NSString stringWithFormat:@"duration: %ld s", val]];
 }
 
 - (void)didReceiveMemoryWarning
