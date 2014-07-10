@@ -9,7 +9,7 @@ an IOS helper class to draw animated paths from SVG files
 
     TGDrawSvgPathView *tgView = [[TGDrawSvgPathView alloc] initWithFrame:CGRectMake(40.0, 70.0, 250.0, 250.0)];
     [tgView setPathFromSvg:@"cloud" strokeColor:[UIColor blackColor] duration:2.0];
-    [self.view addSubview:_tgView];
+    [self.view addSubview:tgView];
     
 ##Requirements
 
